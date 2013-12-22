@@ -100,8 +100,12 @@ header p.view small {
 header ul {
   margin: 0;
   padding: 0;
-  list-style: none;
-  position: absolute;
+  // height:30px;
+  list-style-type: none;
+  text-align: center;
+  width: 100%;
+  display: table;
+/*position: absolute;
   z-index: 1;
   right: 20px;
   top: 20px;
@@ -118,8 +122,12 @@ header ul {
   -webkit-box-shadow: inset rgba(255, 255, 255, 0.45) 0 1px 0, inset rgba(0, 0, 0, 0.2) 0 -1px 0;
   -moz-box-shadow: inset rgba(255, 255, 255, 0.45) 0 1px 0, inset rgba(0, 0, 0, 0.2) 0 -1px 0;
   box-shadow: inset rgba(255, 255, 255, 0.45) 0 1px 0, inset rgba(0, 0, 0, 0.2) 0 -1px 0;
-  width: auto;
+  /* CHANGES  */
+  //width: auto; /* Changed from auto to 100% */
+  //text-align:center;
+  //display: table;
 }
+/*
 header ul:before {
   content: '';
   position: absolute;
@@ -137,13 +145,18 @@ header ul:before {
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 0, inset rgba(255, 255, 255, 0.7) 0 -1px 0;
   -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 0, inset rgba(255, 255, 255, 0.7) 0 -1px 0;
   box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 0, inset rgba(255, 255, 255, 0.7) 0 -1px 0;
-}
+}*/
 header ul li {
-  width: 79px;
-  float: left;
-  border-right: 1px solid #3A7CBE;
-  height: 38px;
+  //width: 79px;
+  //float: left;
+  //border-right: 1px solid #3A7CBE;
+  //height: 38px;
+  /* CHANGES */
+  margin-left:50px;
+  display: table-cell;
 }
+
+/*
 header ul li.single {
   border: none;
 }
@@ -162,6 +175,7 @@ header ul a {
   color: rgba(255, 255, 255, 0.8);
   display: block;
   text-align: center;
+  list-style-type:none; // Added by me 
   font-weight: 400;
   padding-top: 6px;
   height: 40px;
@@ -173,6 +187,8 @@ header ul a strong {
   color: #fff;
   -webkit-font-smoothing: antialiased;
 }
+*/
+
 
 section {
   padding: 15px 20px;
