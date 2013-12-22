@@ -1,64 +1,70 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Everett Berry</title>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<title>Everett Berry</title>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<link rel="stylesheet" href="stylesheets/styles.css">
+<link rel="stylesheet" href="stylesheets/pygment_trac.css">
+<script src="javascripts/scale.fix.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <!--[if lt IE 9]>
+<!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Everett Berry</h1>
-        <!--<p>Webpage for me</p>
+</head>
+<body>
+<div class="wrapper">
+  <header>
+    <h1>Everett Berry</h1>
+    <!--<p>Webpage for me</p>
         <p class="view"><a href="https://github.com/EverettBerry">View the Project on GitHub <small>EverettBerry</small></a></p>
         <ul>
           <li class="single"><a href="https://github.com/EverettBerry/EverettBerry.github.io">View On <strong>GitHub</strong></a></li>-->
-        </ul>
-      </header>
-      <section>
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to my webpage.</h3>
+  </ul>
+</header>
+<section>
+  <h3>
+    <a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to my webpage.</h3>
 
-<p>I am a sophomore studying Computer Engineering at Purdue University.  
-I plan to have links to projects and things I've worked on on this site, 
-but I hope it will be a bit less formal than my 
-<a href="http://www.linkedin.com/in/everettberry/">LinkedIn profile</a>.
-Now I just need to find some content...</p>
+  <p>I am a sophomore studying Computer Engineering at Purdue University.  
+  I plan to have links to projects and things I've worked on on this site, 
+  but I hope it will be a bit less formal than my 
+  <a href="http://www.linkedin.com/in/everettberry/">LinkedIn profile</a>.
+  Now I just need to find some content...</p>
 
-<!--<pre><code>$ cd your_repo_root/repo_name
+  <!--<pre><code>$ cd your_repo_root/repo_name
 $ git fetch origin
 $ git checkout gh-pages
 </code></pre>
 
 <p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>-->
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>My Interests</h3>
+  <h3>
+    <a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>My Interests</h3>
 
-<p>I like technology and I have been programming since highschool.
-Currently I am thinking a lot about system design, databases, and programming in teams.
-Most of this stems from a research project I have been working on for about 4 months.
-More about this project can be found in the yet-to-be-created 
-<a href="#">projects page</a> or at
-<a href="http://bigdata.ecn.purdue.edu">the project website</a>.  I know C and Python pretty well
-and I am in the midst of learning C++ and PHP.  I have also been playing
-around with Objective C (who hasn't?).  As a computer engineer, my education focuses on low
-level aspects of computers, and C is about as high level as we get.  I like languages though,
-so I try to get involved with things outside of class that let me explore a little bit.
-More to come soon!</p> 
-<!--<h3>
+  <p>I like technology and I have been programming since highschool.
+  Currently I am thinking a lot about system design, databases, and programming in teams.
+  Most of this stems from a research project I have been working on for about 4 months.
+  More about this project can be found in the yet-to-be-created 
+  <a href="#">projects page</a> or at
+  <a href="http://bigdata.ecn.purdue.edu">the project website</a>.  I know C and Python pretty well
+  and I am in the midst of learning C++ and PHP.  I have also been playing
+  around with Objective C (who hasn't?).  As a computer engineer, my education focuses on low
+  level aspects of computers, and C is about as high level as we get.  I like languages though,
+  so I try to get involved with things outside of class that let me explore a little bit.
+  More to come soon! Test of the jekyll.</p> 
+
+  <ul>
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  <!--<h3>
 <a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>-->
 
-<!--<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+  <!--<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
 
 <h3>
 <a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
@@ -68,13 +74,13 @@ More to come soon!</p>
 <h3>
 <a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>-->
-    </div>
-    <footer>
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
-    </footer>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
-  </body>
+<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>-->
+      </section>
+</div>
+<footer>
+  <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+</footer>
+<!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
+</body>
 </html>
