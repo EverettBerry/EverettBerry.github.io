@@ -1,0 +1,7 @@
+---
+layout: default
+title: How I set up this site
+---
+
+This site is hosted by github static pages.  I use the jekyll framework to support the blogging.  Other parts
+of the site are written in pure html.  I used a template from github as well because you know.. lazy.
