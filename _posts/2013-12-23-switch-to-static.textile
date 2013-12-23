@@ -1,0 +1,10 @@
+---
+layout: default
+title: Switching from Wordpress to a Static Site
+---
+
+Speak of the devil.  Silviu Tantos, who has "beautiful website":http://razius.com/, just wrote a very prescient peice about switching from a dynamically generated blog a la wordpress to a staticically generated one, like the blog you are reading.  His peice, "Ditching Wordpress and becoming one of the cool kids": http://razius.com/articles/ditching-wordpress-and-becoming-one-of-the-cool-kids/, talks about some of the advantages that come with a statically generated site, including faster loading times and greater flexibility.  
+  
+To be honest, I did not really consider many of those things when choosing github pages.  I wanted to be able to build my own site (although I took a major shortcut by choosing a template) and I had the impression that wordpress was not all that flexible.  In the future, I might want to add features that may not have been possible on wordpress and I also did not want to have to migrate all that content.
+
+Silviu also mentions how he used "Pelican":http://docs.getpelican.com/en/3.3.0/, a static framework much like Jekyll, except written in Python instead of Ruby.  I had never heard of this and might have tried it since I have been using Django for a little while now.  There is still time I suppose, because I could generate a project page for another repository and see how it works.
