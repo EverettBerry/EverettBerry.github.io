@@ -3,4 +3,22 @@ layout: default
 title: How I set up this site
 ---
 
-This site is hosted by github static pages.  I use the jekyll framework to support the blogging.  Other parts of the site are written in pure html.  I used a template from github as well because you know.. lazy.
+h1. Tools
+# "Github Pages":http://pages.github.com/
+# "Textile markup language":http://redcloth.org/textile
+# "Jekyll framework":http://jekyllrb.com/
+# "iwantmyname":https://iwantmyname.com/
+
+h1. Process
+I'd planned on setting up a personal site for a while now but had never gotten around to it.  Not being a huge front end guy, I was worried that I would need to learn more than the basics of CSS, HTML, and JavaScript.  Luckily, that turned out not be the case.
+I really like git and github, so when I saw they had rolled out a new version of their pages tool, I was really excited.  Github pages lets you set up static pages which are generated through the Jekyll engine.  The feature is mainly intended as a quick way to set up pages for a given github project, but it works just as well for personal pages.
+I bought _epberry.com_ from iwantmyname.  This was also extemely easy.  You can point your github pages to any domain name by creating a _cname_ file in the repo and modifying it.  I also installed the github pages app on iwantmyname.
+In lieu of building my own CSS style, I opted for a style already built by github.  It was very easy to take that and add my own text and simple formatting.
+
+h1. Jekyll
+Jekyll is the engine that github pages are generated on.  It is a really lightweight framework.  I used some of its built in blogging features to set up this post and the blog page.  I plan to have two seperate pages: one for the actual blog, and one as a debugging journal.  This way, when I run into problems I have already solved, I can use the journal as a refernce.
+To use jekyll, all you really have to do is create a "_posts" directory and a "_layouts" directory.  You can structure your entire site around a default layout, as I have done, or you can have a custom layout for each page.  Jekyll also runs a development server so you can test your site locally before making it available to the world.  Having this plus github is really nice because you can commit and test locally without an internet connection.
+The great thing about Jekyll was that it is a small framework.  I have another project being developed in Django and that thing is a beast.  If you are trying to deploy quickly, but also give yourself the most flexibilty, Jekyll is the way to go.
+
+h1. So far, so good...
+The last thing I am getting used to is this Textile markup language.  I have to say, it is much simpler to use than writing posts in pure HTML.  "This site":https://support.3scale.net/howtos/portal-configuration/textile-guide has a really nice layout of examples and then what they look like and as I am writing this, I have it up on the other side of my screen.  I have a new goal of committing to github every day, so I am hoping updates on this site will be frequent.
