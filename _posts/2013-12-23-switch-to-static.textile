@@ -2,9 +2,10 @@
 layout: default
 title: Switching from Wordpress to a Static Site
 comments: true
+excerpt: Speak of the devil.  Silviu Tantos, who has "beautiful website":http://razius.com/, just wrote a very prescient peice about switching from a dynamically generated blog a la wordpress to a staticically generated one, like the blog you are reading.  His peice, "Ditching Wordpress and becoming one of the cool kids":http://razius.com/articles/ditching-wordpress-and-becoming-one-of-the-cool-kids/, talks about some of the advantages that come with a statically generated site, including faster loading times and greater flexibility...
 ---
 
-Speak of the devil.  Silviu Tantos, who has "beautiful website":http://razius.com/, just wrote a very prescient peice about switching from a dynamically generated blog a la wordpress to a staticically generated one, like the blog you are reading.  His peice, "Ditching Wordpress and becoming one of the cool kids": http://razius.com/articles/ditching-wordpress-and-becoming-one-of-the-cool-kids/, talks about some of the advantages that come with a statically generated site, including faster loading times and greater flexibility.  
+Speak of the devil.  Silviu Tantos, who has "beautiful website":http://razius.com/, just wrote a very prescient peice about switching from a dynamically generated blog a la wordpress to a staticically generated one, like the blog you are reading.  His peice, "Ditching Wordpress and becoming one of the cool kids":http://razius.com/articles/ditching-wordpress-and-becoming-one-of-the-cool-kids/, talks about some of the advantages that come with a statically generated site, including faster loading times and greater flexibility.
   
 To be honest, I did not really consider many of those things when choosing github pages.  I wanted to be able to build my own site (although I took a major shortcut by choosing a template) and I had the impression that wordpress was not all that flexible.  In the future, I might want to add features that may not have been possible on wordpress and I also did not want to have to migrate all that content in case I ever did switch from wordpress.
 

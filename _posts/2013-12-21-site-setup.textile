@@ -2,6 +2,7 @@
 layout: default
 title: How I set up this site
 comments: true
+excerpt: I'd planned on setting up a personal site for a while now but had never gotten around to it.  Not being a huge front end guy, I was worried that I would need to learn more than the basics of CSS, HTML, and JavaScript.  Luckily, that turned out not be the case...
 ---
 
 h1. Tools
