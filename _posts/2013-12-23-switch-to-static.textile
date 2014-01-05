@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Switching from Wordpress to a Static Site
+comments: true
 ---
 
 Speak of the devil.  Silviu Tantos, who has "beautiful website":http://razius.com/, just wrote a very prescient peice about switching from a dynamically generated blog a la wordpress to a staticically generated one, like the blog you are reading.  His peice, "Ditching Wordpress and becoming one of the cool kids": http://razius.com/articles/ditching-wordpress-and-becoming-one-of-the-cool-kids/, talks about some of the advantages that come with a statically generated site, including faster loading times and greater flexibility.  

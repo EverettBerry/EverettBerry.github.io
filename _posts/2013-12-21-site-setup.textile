@@ -1,6 +1,7 @@
 ---
 layout: default
 title: How I set up this site
+comments: true
 ---
 
 h1. Tools
@@ -9,7 +10,7 @@ h1. Tools
 # "Textile markup language":http://redcloth.org/textile
 # "Jekyll framework":http://jekyllrb.com/
 # "iwantmyname":https://iwantmyname.com/
-
+# "Disqus Comments":http://disqus.com/
 
 h1. Process
 
@@ -28,6 +29,10 @@ Jekyll is the engine that github pages are generated on.  It is a really lightwe
 To use jekyll, all you really have to do is create a "_posts" directory and a "_layouts" directory.  You can structure your entire site around a default layout, as I have done, or you can have a custom layout for each page.  Jekyll also runs a development server so you can test your site locally before making it available to the world.  Having this plus github is really nice because you can commit and test locally without an internet connection.
 
 The great thing about Jekyll was that it is a small framework.  I have another project being developed in Django and that thing is a beast.  If you are trying to deploy quickly, but also give yourself the most flexibilty, Jekyll is the way to go.
+
+h1. Comments
+
+Keeping with the theme of doing minimal work to set up this site, I used "Disqus":http://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions comments to allow people to comment on blog posts.  Setup was a matter of pasting Javascript into the appropriate section of the default page and the comments can be managed on the Disqus page itself.
 
 h1. So far, so good...
 
